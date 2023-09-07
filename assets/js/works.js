@@ -35,7 +35,7 @@
                   <ion-icon name="eye-outline"></ion-icon>
                 </div>
                 <img
-                  src="./assets/images/works/${work.name}/0.png"
+                  src="./assets/images/works/${work.name.toLocaleLowerCase()}/0.png"
                   alt="${work.name}"
                   loading="lazy"
                 >

@@ -24,5 +24,17 @@
       "sort": 10
     }
   ],
-  "Приложения": []
+  "Приложения": [
+    {
+      "name": "Учет финансов",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis assumenda autem, tempora, voluptate quos iste quis ullam impedit eum repudiandae earum sunt quaerat voluptas veniam at. Sed, perspiciatis facere?",
+      "link": "https://vue-crm-b3620.web.app/login",
+      "skills": [
+        "Vue3",
+        "Capacitor"
+      ],
+      "countImages": 3,
+      "sort": 1
+    }
+  ]
 }

@@ -35,7 +35,7 @@
                   <ion-icon name="eye-outline"></ion-icon>
                 </div>
                 <img
-                  src="./assets/images/works/${work.name.toLocaleLowerCase()}/0.png"
+                  src="./assets/images/works/${work.folder}/0.png"
                   alt="${work.name}"
                   loading="lazy"
                 >
@@ -166,11 +166,9 @@
         for (let image = 0; image < count; image++) {
           if (image > 5) break;
 
-          console.log(image);
-          console.log(work.name.toLocaleLowerCase());
           htmlSlider += `
             <li class="splide__slide modal-slide">
-              <img src="./assets/images/works/${work.name.toLocaleLowerCase()}/${image}.png">
+              <img src="./assets/images/works/${work.folder}/${image}.png">
             </li>
           `;
         }

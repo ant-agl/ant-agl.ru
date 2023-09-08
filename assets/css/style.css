@@ -819,10 +819,6 @@ main {
 .modal-link:hover {
   text-decoration: underline;
 }
-.modal-slide {
-  border-radius: 20px;
-  overflow: hidden;
-}
 .modal-catagory {
   margin-bottom: 15px;
 }
@@ -832,10 +828,15 @@ main {
 }
 .modal-slider img {
   width: 100%;
+  border-radius: 20px;
 }
 .modal-slider,
 .modal-work .modal-content {
   width: 100%;
+}
+.modal-slide {
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 1023px) {

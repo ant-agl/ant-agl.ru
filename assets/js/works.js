@@ -1,4 +1,6 @@
 (function () {
+  const LANG = "ru";
+
   let xhr = new XMLHttpRequest();
   xhr.open("GET", "../data/works.json");
   xhr.send();
@@ -12,7 +14,9 @@
     let worksArr = [];
 
     for (let category in works) {
-      if (works[category].length == 0) continue;
+      if (works[category].list.length == 0) continue;
+      let categoryKey = category;
+      if (LANG == "en") category = works[category].category_en;
 
       // add filter
       let liFilter = document.createElement("li");
@@ -26,7 +30,7 @@
       liSelect.innerHTML = `<button data-select-item>${category}</button>`;
       selectList.append(liSelect);
 
-      works[category].forEach((work) => {
+      works[categoryKey].list.forEach((work) => {
         let html = `
           <li class="project-item active" data-filter-item data-category="${category.toLocaleLowerCase()}">
             <a href="${work.link}">
@@ -36,11 +40,11 @@
                 </div>
                 <img
                   src="./assets/images/works/${work.folder}/0.png"
-                  alt="${work.name}"
+                  alt="${work[LANG].name}"
                   loading="lazy"
                 >
               </figure>
-              <h3 class="project-title">${work.name}</h3>
+              <h3 class="project-title">${work[LANG].name}</h3>
               <p class="project-category">${category}</p>
             </a>
           </li>
@@ -133,12 +137,12 @@
         e.preventDefault();
 
         let work = worksArr[i].json;
-        modalTitle.innerText = work.name;
+        modalTitle.innerText = work[LANG].name;
         modalCategory.innerText = work.category;
 
-        if (work.desc) {
+        if (work[LANG].desc) {
           modalDesc.style.display = "";
-          modalDesc.innerText = work.desc;
+          modalDesc.innerText = work[LANG].desc;
         } else {
           modalDesc.style.display = "none";
         }

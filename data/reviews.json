@@ -1,27 +1,57 @@
 [
   {
     "image": "1.png",
-    "name": "Дмитрий Лыков",
-    "text": "Очень доволен! Работа была выполнена очень быстро и раньше срока. Профессионал своего дела, как в коммуникации так и в технической настройке. Будем обязательно работать еще."
+    "ru": {
+      "name": "Дмитрий Лыков",
+      "text": "Очень доволен! Работа была выполнена очень быстро и раньше срока. Профессионал своего дела, как в коммуникации так и в технической настройке. Будем обязательно работать еще."
+    },
+    "en": {
+      "name": "Dmitry Lykov",
+      "text": "Very satisfied! The work was done very quickly and ahead of schedule. A professional in his field, both in communication and in technical setup. We will definitely work again."
+    }
   },
   {
     "image": "5.png",
-    "name": "Денис Пирогов",
-    "text": "Антон, спасибо за оперативную работу. Я даже не ожидал, что за 2 часа можно написать такое количество кода<br><br>На мою заявку по заказу откликнулось больше 15 человек, включая вас, но 14 из 15 требовали какие-то космические суммы!!! С вами же договорились быстро и без проблем поняли друг друга. Задание выполнено в соответствии с ТЗ<br><br> Однозначно будем сотрудничать и дальше, всем своим коллегам также вас уже порекомендовал за быстроту выполнения заказа и, в первую очередь, адекватность!<br><br> Успехов!"
+    "ru": {
+      "name": "Денис Пирогов",
+      "text": "Антон, спасибо за оперативную работу. Я даже не ожидал, что за 2 часа можно написать такое количество кода<br><br>На мою заявку по заказу откликнулось больше 15 человек, включая вас, но 14 из 15 требовали какие-то космические суммы!!! С вами же договорились быстро и без проблем поняли друг друга. Задание выполнено в соответствии с ТЗ<br><br> Однозначно будем сотрудничать и дальше, всем своим коллегам также вас уже порекомендовал за быстроту выполнения заказа и, в первую очередь, адекватность!<br><br> Успехов!"
+    },
+    "en": {
+      "name": "Denis Pirogov",
+      "text": "Anton, thank you for your prompt work. I didn't even expect that in 2 hours you can write so much code<br><br>More than 15 people responded to my request for an order, including you, but 14 out of 15 demanded some cosmic sums!!! We agreed with you quickly and understood each other without any problems. The task was completed in accordance with the TOR<br><br> We will definitely continue to cooperate, I have already recommended you to all my colleagues for the speed of order fulfillment and, first of all, adequacy!<br><br> Good luck!"
+    }
   },
   {
     "image": "6.png",
-    "name": "Константин Терентьев",
-    "text": "Задача стояла переделать сайт, обновив дизайн. Было сделано не мало. Антон выполнял все четко по плану. Выбрал его, потому что уверен в компетентности и честности специалиста. Все очень оперативно, даёшь обширную задачу и, буквально, в течение дня все готово. Я точно могу рекомендовать этого специалиста другим"
+    "ru": {
+      "name": "Константин Терентьев",
+      "text": "Задача стояла переделать сайт, обновив дизайн. Было сделано не мало. Антон выполнял все четко по плану. Выбрал его, потому что уверен в компетентности и честности специалиста. Все очень оперативно, даёшь обширную задачу и, буквально, в течение дня все готово. Я точно могу рекомендовать этого специалиста другим"
+    },
+    "en": {
+      "name": "Konstantin Terentyev",
+      "text": "The task was to redo the site by updating the design. A lot has been done. Anton did everything exactly according to plan. I chose him because I am confident in the competence and honesty of the specialist. Everything is very fast, you give an extensive task and, literally, everything is ready during the day. I can definitely recommend this specialist to others"
+    }
   },
   {
     "image": "4.png",
-    "name": "Ярослав Сухов",
-    "text": "Проект выполнил раньше срока! Все правки учел, с большой ответственностью и добросовестностью выполнил задание! Будем обращаться снова. Большое спасибо!"
+    "ru": {
+      "name": "Ярослав Сухов",
+      "text": "Проект выполнил раньше срока! Все правки учел, с большой ответственностью и добросовестностью выполнил задание! Будем обращаться снова. Большое спасибо!"
+    },
+    "en": {
+      "name": "Yaroslav Sukhov",
+      "text": "The project was completed ahead of schedule! I took into account all the edits, fulfilled the task with great responsibility and conscientiousness! We will contact you again. Thank you very much!"
+    }
   },
   {
     "image": "2.png",
-    "name": "Анна Ильинская",
-    "text": "Все работы выполнены, справился со сложной задачей. Рекомендую!"
+    "ru": {
+      "name": "Анна Ильинская",
+      "text": "Все работы выполнены, справился со сложной задачей. Рекомендую!"
+    },
+    "en": {
+      "name": "Anna Ilyinskaya",
+      "text": "All the work is done, coped with a difficult task. I recommend it!"
+    }
   }
 ]

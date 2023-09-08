@@ -1,4 +1,6 @@
 (function () {
+  const LANG = "ru";
+
   let xhr = new XMLHttpRequest();
   xhr.open("GET", "../data/reviews.json");
   xhr.send();
@@ -12,13 +14,13 @@
       item.innerHTML = `
       <div class="content-card" data-testimonials-item>
         <figure class="testimonials-avatar-box">
-          <img src="./assets/images/avatars/${review.image}" alt="${review.name}" width="60" data-testimonials-avatar>
+          <img src="./assets/images/avatars/${review.image}" alt="${review[LANG].name}" width="60" data-testimonials-avatar>
         </figure>
 
-        <h4 class="h4 testimonials-item-title" data-testimonials-title>${review.name}</h4>
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>${review[LANG].name}</h4>
 
         <div class="testimonials-text" data-testimonials-text>
-          <p>${review.text}</p>
+          <p>${review[LANG].text}</p>
         </div>
       </div>
     `;

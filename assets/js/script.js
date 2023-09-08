@@ -63,23 +63,24 @@ form.addEventListener("submit", function (e) {
 
   // send data
   const formData = new FormData(form);
+  formData.append("site", "ant-agl.ru");
 
   const xhr = new XMLHttpRequest();
   xhr.open("POST", "https://ant-agl.ru/send-message.php");
   xhr.send(formData);
 
-  // xhr.onload = () => {
-  modalThanks.classList.add("active");
-  modalThanksOverlay.classList.add("active");
+  xhr.onload = () => {
+    modalThanks.classList.add("active");
+    modalThanksOverlay.classList.add("active");
 
-  checkmark.classList.add("checkmark");
-  checkmarkСircle.classList.add("checkmark__circle");
-  checkmarkСheck.classList.add("checkmark__check");
+    checkmark.classList.add("checkmark");
+    checkmarkСircle.classList.add("checkmark__circle");
+    checkmarkСheck.classList.add("checkmark__check");
 
-  formInputs.forEach((input) => {
-    input.value = "";
-  });
-  // };
+    formInputs.forEach((input) => {
+      input.value = "";
+    });
+  };
 });
 
 // page navigation variables

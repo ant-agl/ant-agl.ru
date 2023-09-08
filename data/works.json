@@ -1,44 +1,75 @@
 {
-  "Web разработка": [
-    {
-      "name": "Finance",
-      "folder": "finance",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis assumenda autem, tempora, voluptate quos iste quis ullam impedit eum repudiandae earum sunt quaerat voluptas veniam at. Sed, perspiciatis facere?",
-      "link": "#fin",
-      "skills": [
-        "Vue3",
-        "Sass"
-      ],
-      "countImages": 3,
-      "sort": 10
-    },
-    {
-      "name": "Test",
-      "folder": "test",
-      "link": "#test",
-      "sort": 10
-    }
-  ],
-  "Web дизайн": [
-    {
-      "name": "Test2",
-      "folder": "test2",
-      "link": "#test2",
-      "sort": 10
-    }
-  ],
-  "Приложения": [
-    {
-      "name": "Учет финансов",
-      "folder": "vue-crm",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis assumenda autem, tempora, voluptate quos iste quis ullam impedit eum repudiandae earum sunt quaerat voluptas veniam at. Sed, perspiciatis facere?",
-      "link": "https://vue-crm-b3620.web.app/login",
-      "skills": [
-        "Vue3",
-        "Capacitor"
-      ],
-      "countImages": 3,
-      "sort": 1
-    }
-  ]
+  "Web разработка": {
+    "category_en": "Web develop",
+    "list": [
+      {
+        "ru": {
+          "name": "Finance",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis assumenda autem, tempora, voluptate quos iste quis ullam impedit eum repudiandae earum sunt quaerat voluptas veniam at. Sed, perspiciatis facere?"
+        },
+        "en": {
+          "name": "Finance",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis assumenda autem, tempora, voluptate quos iste quis ullam impedit eum repudiandae earum sunt quaerat voluptas veniam at. Sed, perspiciatis facere?"
+        },
+        "folder": "finance",
+        "link": "#fin",
+        "skills": [
+          "Vue3",
+          "Sass"
+        ],
+        "countImages": 3,
+        "sort": 10
+      },
+      {
+        "ru": {
+          "name": "Test"
+        },
+        "en": {
+          "name": "Test"
+        },
+        "folder": "test",
+        "link": "#test",
+        "sort": 10
+      }
+    ]
+  },
+  "Web дизайн": {
+    "category_en": "Web design",
+    "list": [
+      {
+        "ru": {
+          "name": "Test2"
+        },
+        "en": {
+          "name": "Test2"
+        },
+        "folder": "test2",
+        "link": "#test2",
+        "sort": 10
+      }
+    ]
+  },
+  "Приложения": {
+    "category_en": "Application",
+    "list": [
+      {
+        "ru": {
+          "name": "Учет финансов",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis assumenda autem, tempora, voluptate quos iste quis ullam impedit eum repudiandae earum sunt quaerat voluptas veniam at. Sed, perspiciatis facere?"
+        },
+        "en": {
+          "name": "Accounting of finances",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis assumenda autem, tempora, voluptate quos iste quis ullam impedit eum repudiandae earum sunt quaerat voluptas veniam at. Sed, perspiciatis facere?"
+        },
+        "folder": "vue-crm",
+        "link": "https://vue-crm-b3620.web.app/login",
+        "skills": [
+          "Vue3",
+          "Capacitor"
+        ],
+        "countImages": 3,
+        "sort": 1
+      }
+    ]
+  }
 }

@@ -796,6 +796,7 @@ main {
   display: flex;
   gap: 10px;
   margin-bottom: 15px;
+  flex-wrap: wrap;
 }
 .modal-skill {
   padding: 4px 9px;
@@ -806,10 +807,10 @@ main {
   background-color: #393939;
 }
 .modal-work .modal-block {
-  max-width: none !important;
   display: flex;
   gap: 35px;
   min-width: 300px;
+  max-width: 1200px;
   width: 100%;
 }
 .modal-link {
@@ -1113,7 +1114,7 @@ main {
 .project-img {
   position: relative;
   width: 100%;
-  height: 200px;
+  /* height: 200px; */
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;

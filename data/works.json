@@ -1,74 +1,56 @@
 {
-  "Web разработка": {
-    "category_en": "Web develop",
+  "Верстка": {
+    "category_en": "HTML code",
     "list": [
       {
         "ru": {
-          "name": "Finance",
-          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis assumenda autem, tempora, voluptate quos iste quis ullam impedit eum repudiandae earum sunt quaerat voluptas veniam at. Sed, perspiciatis facere?"
+          "name": "Автошторки Esco",
+          "desc": "Одностраничный сайт с анимациями и калькулятором цен"
         },
         "en": {
-          "name": "Finance",
-          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis assumenda autem, tempora, voluptate quos iste quis ullam impedit eum repudiandae earum sunt quaerat voluptas veniam at. Sed, perspiciatis facere?"
+          "name": "Driving desks Esco",
+          "desc": "One-page website with animations and a price calculator"
         },
-        "folder": "finance",
-        "link": "#fin",
+        "folder": "esco",
+        "link": "https://ant-agl.github.io/other/esco/",
         "skills": [
-          "Vue3",
-          "Sass"
+          "HTML",
+          "Less",
+          "jQuery"
         ],
-        "countImages": 3,
-        "sort": 10
-      },
-      {
-        "ru": {
-          "name": "Test"
-        },
-        "en": {
-          "name": "Test"
-        },
-        "folder": "test",
-        "link": "#test",
+        "countImages": 4,
         "sort": 10
       }
     ]
   },
   "Web дизайн": {
     "category_en": "Web design",
-    "list": [
-      {
-        "ru": {
-          "name": "Test2"
-        },
-        "en": {
-          "name": "Test2"
-        },
-        "folder": "test2",
-        "link": "#test2",
-        "sort": 10
-      }
-    ]
+    "list": []
   },
   "Приложения": {
-    "category_en": "Application",
+    "category_en": "Applications",
     "list": [
       {
         "ru": {
           "name": "Учет финансов",
-          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis assumenda autem, tempora, voluptate quos iste quis ullam impedit eum repudiandae earum sunt quaerat voluptas veniam at. Sed, perspiciatis facere?"
+          "desc": "Учебный проект, кроссплатформенное приложение для учета расходов/доходов"
         },
         "en": {
           "name": "Accounting of finances",
-          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis assumenda autem, tempora, voluptate quos iste quis ullam impedit eum repudiandae earum sunt quaerat voluptas veniam at. Sed, perspiciatis facere?"
+          "desc": "Training project, a cross-platform application for accounting expenses/income"
         },
         "folder": "vue-crm",
         "link": "https://vue-crm-b3620.web.app/login",
         "skills": [
           "Vue3",
+          "Vuex",
+          "chartjs",
+          "firebase",
+          "PWA",
           "Capacitor"
         ],
-        "countImages": 3,
-        "sort": 1
+        "countImages": 4,
+        "sort": 10
       }
     ]
   }

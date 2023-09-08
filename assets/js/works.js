@@ -180,6 +180,7 @@
 
         splide?.destroy();
         splide = new Splide(".modal-slider", {
+          gap: 25,
           arrowPath:
             "M13 2L27.4713 19.6327C27.7775 20.0059 27.7735 20.5446 27.4616 20.9131L13 38",
           breakpoints: {

@@ -154,6 +154,24 @@
         ],
         "countImages": 1,
         "sort": 1
+      },
+      {
+        "ru": {
+          "name": "Натяжные потолки"
+        },
+        "en": {
+          "name": "Stretch ceilings"
+        },
+        "folder": "designedproject",
+        "link": "https://designedproject.ru",
+        "skills": [
+          "HTML",
+          "CSS",
+          "Wordpress",
+          "Design"
+        ],
+        "countImages": 3,
+        "sort": 10
       }
     ]
   },
@@ -180,22 +198,6 @@
           "jQuery"
         ],
         "countImages": 4,
-        "sort": 10
-      },
-      {
-        "ru": {
-          "name": "Натяжные потолки"
-        },
-        "en": {
-          "name": "Stretch ceilings"
-        },
-        "folder": "designedproject",
-        "link": "https://designedproject.ru",
-        "skills": [
-          "Wordpress",
-          "Design"
-        ],
-        "countImages": 3,
         "sort": 10
       },
       {

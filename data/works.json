@@ -16,16 +16,262 @@
         "skills": [
           "HTML",
           "Less",
-          "jQuery"
+          "jQuery",
+          "Design"
         ],
         "countImages": 4,
         "sort": 10
+      },
+      {
+        "ru": {
+          "name": "To Become a Pro"
+        },
+        "en": {
+          "name": "To Become a Pro"
+        },
+        "folder": "tbp",
+        "link": "https://tbp.ant-agl.ru/",
+        "skills": [
+          "HTML",
+          "CSS",
+          "PHP"
+        ],
+        "countImages": 4,
+        "sort": 10
+      },
+      {
+        "ru": {
+          "name": "VW-TO",
+          "desc": "Один из моих первых однастраничных сайтов"
+        },
+        "en": {
+          "name": "VW-TO",
+          "desc": "One of my first one-page websites"
+        },
+        "folder": "vw-to",
+        "link": "https://ant-agl.github.io/other/vw-to/",
+        "skills": [
+          "HTML",
+          "Bootstrap",
+          "Design"
+        ],
+        "countImages": 2,
+        "sort": 100
+      },
+      {
+        "ru": {
+          "name": "Fury VPN"
+        },
+        "en": {
+          "name": "Fury VPN"
+        },
+        "folder": "furyvpn",
+        "link": "https://ant-agl.github.io/furyvpn/",
+        "skills": [
+          "HTML",
+          "CSS"
+        ],
+        "countImages": 4,
+        "sort": 10
+      },
+      {
+        "ru": {
+          "name": "Приглашение на свадьбу",
+          "desc": "Открытка с анимациями"
+        },
+        "en": {
+          "name": "Wedding invitation",
+          "desc": "Postcard with animations"
+        },
+        "folder": "postcard",
+        "link": "https://ant-agl.github.io/postcard/",
+        "skills": [
+          "HTML",
+          "CSS",
+          "Design"
+        ],
+        "countImages": 3,
+        "sort": 10,
+        "hide": true
+      },
+      {
+        "ru": {
+          "name": "Новогодний лендинг",
+          "desc": "Новогодний лендинг с анимацией деда мороза, движущегося по дороге при скролле страницы"
+        },
+        "en": {
+          "name": "New Year's landing page",
+          "desc": "New Year's landing page with animation of Santa Claus moving along the road when scrolling the page"
+        },
+        "folder": "n1-christmas",
+        "link": "https://n1.partners/n1-stars-affclub-christmas",
+        "skills": [
+          "HTML",
+          "CSS",
+          "Animation"
+        ],
+        "countImages": 3,
+        "sort": 10
+      },
+      {
+        "ru": {
+          "name": "Слайдер"
+        },
+        "en": {
+          "name": "Slider"
+        },
+        "folder": "slider",
+        "link": "https://ant-agl.github.io/slider/",
+        "skills": [
+          "HTML",
+          "CSS",
+          "jQuery"
+        ],
+        "countImages": 2,
+        "sort": 20
+      }
+    ]
+  },
+  "Сайты под ключ": {
+    "category_en": "Turnkey sites",
+    "list": [
+      {
+        "ru": {
+          "name": "Fightcom",
+          "desc": "Крупный проект сайта по спортивным событиям"
+        },
+        "en": {
+          "name": "Fightcom",
+          "desc": ""
+        },
+        "folder": "fightcom",
+        "link": "https://fightcom.ru",
+        "skills": [
+          "React",
+          "PHP",
+          "MySQL",
+          "Design"
+        ],
+        "countImages": 1,
+        "sort": 1
       }
     ]
   },
   "Web дизайн": {
     "category_en": "Web design",
     "list": []
+  },
+  "CMS": {
+    "category_en": "CMS",
+    "list": [
+      {
+        "ru": {
+          "name": "Евротест",
+          "desc": "Корпоративный сайт медицинской компании на системе битрикс. Личный кабинет, блог, запись на прием"
+        },
+        "en": {
+          "name": "Eurotest",
+          "desc": "Corporate website of a medical company on the Bitrix system. Personal account, blog, appointment"
+        },
+        "folder": "eurotest",
+        "link": "https://eurotest.dot.ru",
+        "skills": [
+          "Bitrix",
+          "jQuery"
+        ],
+        "countImages": 4,
+        "sort": 10
+      },
+      {
+        "ru": {
+          "name": "Натяжные потолки"
+        },
+        "en": {
+          "name": "Stretch ceilings"
+        },
+        "folder": "designedproject",
+        "link": "https://designedproject.ru",
+        "skills": [
+          "Wordpress",
+          "Design"
+        ],
+        "countImages": 3,
+        "sort": 10
+      },
+      {
+        "ru": {
+          "name": "CPA-1 блог"
+        },
+        "en": {
+          "name": "CPA-1 blog"
+        },
+        "folder": "cpa-blog",
+        "link": "https://cpa-1.top/blog/",
+        "skills": [
+          "HTML",
+          "CSS",
+          "Wordpress"
+        ],
+        "countImages": 4,
+        "sort": 10
+      }
+    ]
+  },
+  "Веб-системы": {
+    "category_en": "Web systems",
+    "list": [
+      {
+        "ru": {
+          "name": "Система записи",
+          "desc": "Система записи к врачам для сайта Евротест"
+        },
+        "en": {
+          "name": "Recording system",
+          "desc": "Doctor appointment system for the Eurotest website"
+        },
+        "folder": "eurotest-admin",
+        "skills": [
+          "PHP",
+          "MySQL"
+        ],
+        "countImages": 5,
+        "sort": 10
+      },
+      {
+        "ru": {
+          "name": "Система постмастер",
+          "desc": "Статистика почтовых ящиков gmail и mail"
+        },
+        "en": {
+          "name": "Postmaster system",
+          "desc": "Gmail and mail mailbox statistics"
+        },
+        "folder": "port25",
+        "skills": [
+          "PHP",
+          "Api gmail",
+          "Api mail"
+        ],
+        "countImages": 3,
+        "sort": 10
+      },
+      {
+        "ru": {
+          "name": "Статистика менеджеров"
+        },
+        "en": {
+          "name": "Manager statistics"
+        },
+        "folder": "loftprofildoors",
+        "skills": [
+          "HTML",
+          "PHP",
+          "Api AmoCRM"
+        ],
+        "countImages": 2,
+        "sort": 10
+      }
+    ]
   },
   "Приложения": {
     "category_en": "Applications",

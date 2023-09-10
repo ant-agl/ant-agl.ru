@@ -2,7 +2,7 @@
   const LANG = "ru";
 
   let xhr = new XMLHttpRequest();
-  xhr.open("GET", "../data/works.json");
+  xhr.open("GET", "data/works.json");
   xhr.send();
   xhr.onload = () => {
     let works = JSON.parse(xhr.response);
@@ -31,6 +31,8 @@
       selectList.append(liSelect);
 
       works[categoryKey].list.forEach((work) => {
+        if (work.hide) return;
+
         let html = `
           <li class="project-item active" data-filter-item data-category="${category.toLocaleLowerCase()}">
             <a href="${work.link}">

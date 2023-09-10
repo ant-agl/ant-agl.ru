@@ -2,7 +2,7 @@
   const LANG = "ru";
 
   let xhr = new XMLHttpRequest();
-  xhr.open("GET", "../data/reviews.json");
+  xhr.open("GET", "data/reviews.json");
   xhr.send();
   xhr.onload = () => {
     let reviews = JSON.parse(xhr.response);

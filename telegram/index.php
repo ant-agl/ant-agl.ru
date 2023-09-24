@@ -5,17 +5,18 @@ $token = "6568622203:AAGSlCG1tv3LaVWbzI5ZkvzLs78PQ7zL8xE";
 
 $name = $_POST['name'];
 $email = $_POST['email'];
-$message = $_POST['$message'];
+$message = $_POST['message'];
+$site = $_POST['site'];
 
 try {
     $telegramManager = new TelegramConnector($token);
 
     $text = "
+Сайт: " . $site . "
 Имя: " . $name . "
 Почта: " . $email . "
 Сообщение: " . $message;
 
-    // $telegramManager ->__construct($token);
 
     $telegramManager->sendMessage(710899516, $text);
 } catch (Exception $e) {

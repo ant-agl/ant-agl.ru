@@ -66,7 +66,8 @@ form.addEventListener("submit", function (e) {
   formData.append("site", "ant-agl.ru");
 
   const xhr = new XMLHttpRequest();
-  xhr.open("POST", "https://ant-agl.ru/send-message.php");
+  // xhr.open("POST", "https://ant-agl.ru/send-message.php");
+  xhr.open("POST", "https://ant-agl.ru/telegram/index.php");
   xhr.send(formData);
 
   xhr.onload = () => {

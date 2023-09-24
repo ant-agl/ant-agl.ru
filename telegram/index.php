@@ -8,17 +8,16 @@ $email = $_POST['email'];
 $message = $_POST['$message'];
 
 try {
-    $telegramManager = new TelegramConnector("", "");
+    $telegramManager = new TelegramConnector($token);
 
     $text = "
 Имя: " . $name . "
 Почта: " . $email . "
 Сообщение: " . $message;
-    
-    $telegramManager ->__construct($token);
+
+    // $telegramManager ->__construct($token);
 
     $telegramManager->sendMessage(710899516, $text);
-
 } catch (Exception $e) {
     file_put_contents("MAIN_ERROR_LOG.txt", 'Ошибка: ' . $e->getMessage() . PHP_EOL . 'Код ошибки: ' . $e->getCode() . " " . PHP_EOL . $e->getFile() . " : " . $e->getLine());
 }

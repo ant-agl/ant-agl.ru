@@ -129,6 +129,24 @@
         ],
         "countImages": 2,
         "sort": 20
+      },
+      {
+        "ru": {
+          "name": "VaryAds"
+        },
+        "en": {
+          "name": "VaryAds"
+        },
+        "folder": "varyads-landing",
+        "link": "https://ant-agl.github.io/varyads-landing/",
+        "skills": [
+          "HTML",
+          "CSS",
+          "JS",
+          "Aniamtions"
+        ],
+        "countImages": 5,
+        "sort": 3
       }
     ]
   },

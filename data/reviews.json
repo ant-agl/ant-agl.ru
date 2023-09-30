@@ -11,6 +11,17 @@
     }
   },
   {
+    "image": "7.png",
+    "ru": {
+      "name": "Николай Елохин",
+      "text": "Спасибо, с вами действительно приятно работать<br>Удивительно в наше время)"
+    },
+    "en": {
+      "name": "Nikolai Yelokhin",
+      "text": "Thank you, it's really a pleasure to work with you<br>Amazing nowadays)"
+    }
+  },
+  {
     "image": "5.png",
     "ru": {
       "name": "Денис Пирогов",

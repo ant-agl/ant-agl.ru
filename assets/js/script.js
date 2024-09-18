@@ -88,7 +88,6 @@ form.addEventListener("submit", function (e) {
     });
 
     isLoadForm = false;
-    formBtn.removeAttribute("disabled");
     formBtn.querySelector("span").textContent = "Отправить сообщение";
   };
 });

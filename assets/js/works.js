@@ -2,7 +2,7 @@
   const LANG = "ru";
 
   let xhr = new XMLHttpRequest();
-  xhr.open("GET", "data/works.json");
+  xhr.open("GET", "data/works.json?v=1909");
   xhr.send();
   xhr.onload = () => {
     let works = JSON.parse(xhr.response);

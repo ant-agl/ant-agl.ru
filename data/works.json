@@ -92,7 +92,7 @@
         ],
         "countImages": 3,
         "sort": 10,
-        "hide": true
+        "hide": false
       },
       {
         "ru": {
@@ -132,7 +132,7 @@
       },
       {
         "ru": {
-          "name": "VaryAds"
+          "name": "VaryAds лендинг"
         },
         "en": {
           "name": "VaryAds"
@@ -150,52 +150,26 @@
       }
     ]
   },
-  "Сайты под ключ": {
-    "category_en": "Turnkey sites",
+  "Веб-приложения": {
+    "category_en": "Web apps",
     "list": [
       {
         "ru": {
-          "name": "Fightcom",
-          "desc": "Крупный проект сайта по проведению спортивных мероприятий"
+          "name": "VaryAds",
+          "desc": "VaryAds — это веб-приложение для создания и управления рекламными кампаниями, которое я разработал с нуля в роли frontend-разработчика. Проект ставил перед собой задачу создать инструмент, позволяющий пользователям легко и эффективно управлять рекламными кампаниями. \n Основные функции приложения:\n • Создание и настройка рекламных кампаний с возможностью добавления новых баннеров.\n • Добавление целей и тегов для более точного таргетинга и анализа эффективности рекламы.\n • Возможность просматривать детализированную статистику по кампаниям и управлять отображением данных в таблице с помощью drag&drop.\n • Валидация данных и система уведомлений для улучшения пользовательского опыта."
         },
-        "en": {
-          "name": "Fightcom",
-          "desc": ""
-        },
-        "folder": "fightcom",
-        "link": "https://fightcom.ru",
+        "folder": "varyads",
+        "link": " https://varyads.com/app",
         "skills": [
-          "React",
-          "PHP",
-          "MySQL",
-          "Design"
+          "Vue3",
+          "SCSS",
+          "PWA",
+          "ChartJS"
         ],
-        "countImages": 1,
-        "sort": 1
-      },
-      {
-        "ru": {
-          "name": "Натяжные потолки"
-        },
-        "en": {
-          "name": "Stretch ceilings"
-        },
-        "folder": "designedproject",
-        "link": "https://designedproject.ru",
-        "skills": [
-          "HTML",
-          "CSS",
-          "Wordpress",
-          "Design"
-        ],
-        "countImages": 3,
-        "sort": 10
+        "countImages": 5,
+        "sort": 3
       }
     ]
-  },
-  "Web дизайн": {
-    "category_en": "Web design",
-    "list": []
   },
   "CMS": {
     "category_en": "CMS",

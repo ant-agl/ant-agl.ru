@@ -58,8 +58,14 @@ modalThanksCloseBtn.addEventListener("click", function () {
 });
 
 // send form
+let isLoadForm = false;
 form.addEventListener("submit", function (e) {
   e.preventDefault();
+
+  if (isLoadForm) return;
+  isLoadForm = true;
+  formBtn.setAttribute("disabled", "");
+  formBtn.querySelector("span").textContent = "Загрузка...";
 
   // send data
   const formData = new FormData(form);
@@ -80,6 +86,10 @@ form.addEventListener("submit", function (e) {
     formInputs.forEach((input) => {
       input.value = "";
     });
+
+    isLoadForm = false;
+    formBtn.removeAttribute("disabled");
+    formBtn.querySelector("span").textContent = "Отправить сообщение";
   };
 });
 
